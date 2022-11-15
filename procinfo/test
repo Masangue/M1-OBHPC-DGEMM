@@ -1,0 +1,12 @@
+sudo cpupower -c 0 frequency-set -g performance
+sudo cpupower -c 10 frequency-set -g performance
+sudo cpupower -c 11 frequency-set -g powersave
+sudo cpupower -c 1 frequency-set -g performance
+sudo cpupower -c 2 frequency-set -g performance
+sudo cpupower -c 3 frequency-set -g performance
+sudo cpupower -c 4 frequency-set -g performance
+sudo cpupower -c 5 frequency-set -g powersave
+sudo cpupower -c 6 frequency-set -g performance
+sudo cpupower -c 7 frequency-set -g performance
+sudo cpupower -c 8 frequency-set -g performance
+sudo cpupower -c 9 frequency-set -g performance

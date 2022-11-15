@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[export]{adjustbox} 
+\usepackage[utf8]{inputenc}
+\usepackage[french]{algorithm2e}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{ascii}
+\usepackage{diagbox}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{xcolor,colortbl}
+
+\title{Rapport OBHPC DGEMM}
+\author{SANCHEZ-GUENRO Maëlo }
+\date{Novembre 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Section 1}
+Les mesures utilisés dans ce rapport ont été faites sur le même coeur processeur conditionné, (les dgemms) sur 10 itérations avec une taille n de 200.\
+Les 5 variantes près-implémentés ont été testé avec les 4 compilateurs icc,icx,gcc et clang.\
+Pour chacun les 5 flags d'optimisations (O0-3 et Ofast) ont été testé comparer leur impactes sur les performance. \
+
+
+\includegraphics[max size={\textwidth}{\textheight}]{grouped.png}\
+
+On constate que principalement que le tag O0 à vraiment de faibles perfoemances par rapport au reste, et sera donc ignoré dans de futur graph de group car il casse l'échelle des autres optimisations. On remarquera cependant que la bibliothèque derrière cblas est déjà hautement optimisée, même avec cette optimisation les temps d'éxécutiosn sont treès bas, au point de disparaitre chez les compilateurs Intel
+
+\section{Section 2}
+
+\end{document}
