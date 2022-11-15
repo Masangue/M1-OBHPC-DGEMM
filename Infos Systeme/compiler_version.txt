@@ -1,0 +1,27 @@
+gcc :
+gcc (GCC) 12.2.0
+Copyright © 2022 Free Software Foundation, Inc.
+Ce logiciel est un logiciel libre; voir les sources pour les conditions de copie.  Il n'y a
+AUCUNE GARANTIE, pas même pour la COMMERCIALISATION ni L'ADÉQUATION À UNE TÂCHE PARTICULIÈRE.
+
+
+
+icc :
+icc (ICC) 2021.7.1 20221019
+Copyright (C) 1985-2022 Intel Corporation.  All rights reserved.
+
+
+
+icx :
+Intel(R) oneAPI DPC++/C++ Compiler 2022.2.1 (2022.2.1.20221020)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm
+Configuration file: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/icx.cfg
+
+
+clang :
+clang version 14.0.6
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin

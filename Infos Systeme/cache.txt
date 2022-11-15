@@ -1,0 +1,12 @@
+index                    0     2        3
+coherency_line_size      64    64       64
+id                       0     0        0
+level                    1     2        3
+number_of_sets           64    1024     24576
+physical_line_partition  1     1        1
+shared_cpu_list          0,6   0,6      0-11
+shared_cpu_map           041   041      fff
+size                     48K   1280K    12288K
+type                     Data  Unified  Unified
+uevent                   12    20       8
+ways_of_associativity                   
