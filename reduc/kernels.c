@@ -19,3 +19,8 @@ f64 reduc_base(f64 *restrict a, u64 n)
   return d;
 }
 
+void reduc_cblas(f64 *restrict a, u64 n)
+{
+  cblas_dasum(n, a, 1);
+}
+

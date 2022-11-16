@@ -48,6 +48,7 @@ int main(int argc, char **argv)
 	 "n", "r", "d", "min", "max", "mean", "stddev (%)", "MiB/s");
   
   run_benchmark("BASE",   reduc_base, n, r);
+  run_benchmark("CBLAS",  reduc_cblas, n, r);
   
   //
   return 0;
